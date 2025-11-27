@@ -41,7 +41,7 @@ def main() -> None:
         else:
             guild = None
 
-        email =info.get("email")
+        email = info.get("email")
         bio = info.get("bio")
         Player.objects.create(
             nickname=nickname,
